@@ -1,0 +1,9 @@
+name: calc_iq_euler
+channels:
+        - conda-forge
+dependencies:
+        - numpy
+        - numexpr
+        - pip
+        - pip:
+                - .
